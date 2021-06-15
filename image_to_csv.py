@@ -36,6 +36,8 @@ if __name__ == "__main__":
 	parser.add_argument("--haze", "-z", default=0, help="amount of noize all around the image (int)")
 	parser.add_argument("--shrink", "-s", default=1, help="shrinkage coefficient (float)")
 	args = parser.parse_args()
+	if args.fin is None:
+		raise ValueError("No input file specified")
 	if args.shrink == 0:
 		raise ValueError("Shrinkage coefficient cannot be a zero")
 	img_to_csv(args.fin, args.fout, bool(args.plot), float(args.noise), int(args.haze), float(args.shrink))
