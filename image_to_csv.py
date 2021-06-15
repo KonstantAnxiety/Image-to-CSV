@@ -33,7 +33,7 @@ if __name__ == "__main__":
 	parser.add_argument("--fout", "-o", default="result.csv", help="output csv filename")
 	parser.add_argument("--plot", "-p", default=False, help="plot the result [1/0]")
 	parser.add_argument("--noise", "-n", default=0, help="noise amount (float)")
-	parser.add_argument("--haze", "-z", default=0, help="amount of noize all around the image (int)")
+	parser.add_argument("--haze", "-z", default=0, help="amount of noise all around the image (int)")
 	parser.add_argument("--shrink", "-s", default=1, help="shrinkage coefficient (float)")
 	args = parser.parse_args()
 	if args.fin is None:
