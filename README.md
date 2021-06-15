@@ -2,7 +2,8 @@
 A python script that converts a b/w image into a csv of pixel coordinates
 
 ```
-usage: script.py [-h] [--fin FIN] [--fout FOUT] [--plot PLOT] [--noise NOISE] [--haze HAZE] [--shrink SHRINK]
+usage: script.py [-h] [--fin FIN] [--fout FOUT] [--plot PLOT]
+                 [--noise NOISE] [--haze HAZE] [--shrink SHRINK]
 
 Convert b/w image to csv
 
