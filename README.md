@@ -13,6 +13,6 @@ optional arguments:
   --fout FOUT, -o FOUT        output csv filename
   --plot PLOT, -p PLOT        plot the result [1/0]
   --noise NOISE, -n NOISE     noise amount (float)
-  --haze HAZE, -z HAZE        amount of noize all around the image (int)
+  --haze HAZE, -z HAZE        amount of noise all around the image (int)
   --shrink SHRINK, -s SHRINK  shrinkage coefficient (float)  
 ```
